@@ -17,8 +17,10 @@ Because midi is an old protocol it requires some setup to get you started. Below
 
 A synthesizer is an electronic musical instrument, it can receive midi signals and play notes. There are many, paid and free ones. I'll list some free ones, I like to use SurgeXT.
 
-[SurgeXT](https://surge-synthesizer.github.io/)
-[Vital](https://vital.audio/)
+[SurgeXT](https://surge-synthesizer.github.io/)  
+
+[Vital](https://vital.audio/)  
+
 [Dexed](https://asb2m10.github.io/dexed/)
 
 You'll also need to setup your synth to receive and play the right midi port. Open the synth settings and define your "midi input".
