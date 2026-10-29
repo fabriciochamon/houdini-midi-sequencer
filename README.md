@@ -2,6 +2,8 @@
 
 A simple sequencer that allows for procedural music experimentations within sidefx houdini.
 
+Check the [wiki](./wiki) page for more info, or [plugin](./plugin) page for install instructions.
+
 ## Features
 - Arbitrary number of tracks (midi channels)
 - Notes are simple curves, use any SOP to add/modify them
@@ -15,4 +17,3 @@ A simple sequencer that allows for procedural music experimentations within side
 
 ![screenshot](images/screenshot1.jpg)
 
-Check the [wiki](./wiki) page for more info, or [plugin](./plugin) page for install instructions.
