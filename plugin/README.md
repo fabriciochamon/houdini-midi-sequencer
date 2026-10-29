@@ -1,4 +1,4 @@
-How to install the plugin:
+## How to install the plugin:
 
 1. Copy "plugin" folder to your machine
 2. Edit `MidiSequencer.json` file and point "MIDI_SEQUENCER" var to your machine path
