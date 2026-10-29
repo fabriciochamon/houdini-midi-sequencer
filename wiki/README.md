@@ -1,3 +1,11 @@
+Index:
+
+[1 - Before you start](#before-you-start)<br>
+[2 - Wiring it all together](#wiring-it-all-together)<br>
+[3 - Houdini workflow](#in-houdini)<br>
+[4 - Play it!](#play-it)<br>
+[5 - Going forward](#going-forward)<br>
+
 ## Before you start:
 
 When creating procedural music, you just want to hear stuff live. To avoid having to write .midi files every time, its advisable that you open MIDI ports on your machine and send live signals to a synthesizer that keeps listening to houdini notes. 
@@ -48,3 +56,41 @@ This is super simple and should look familiar to any houdini user! Just grab `ho
 
 Open an instance of SurgeXT, click options > Audio/MIDI settings. Adjust the midi input to only listen to `md out ch1`, choose your instrument and done! Open another instance of SurgeXT, do the same for `md out ch2`. Keep both synth apps opened, and launch Houdini.
 
+## In Houdini
+
+### Plugin concepts
+
+This plugin is still in development, but here are some basic concepts. At first it might seem weird because we will start building nodes bottom up, but it will make more sense later on.
+
+Start with a `Midi Sequencer` node. It will display an 8 octave piano keyboard on your screen. The plugin is meant to be used in the top view, as if you were looking downwards into it, so switch to top view by pressing "space bar + 2". (switching background color to dark grey or black also helps!)
+
+![](images/plugin1.jpg)
+
+A sequencer accepts any number of tracks. Let's add two tracks: Bass and Piano, with two `add_midi_track` nodes. Make sure to set Channel# 1 for Bass and Channel# 2 for Piano. (each track also gets a random color on node creation, that you can change)
+
+![](images/plugin2.jpg)
+
+### Adding notes
+
+See the color coding on the input ports? Anything magenta is a note (or group of notes), it accepts simple curve primitives. Here lies the power of proceduralism, use any sop to build those curves.
+
+![](images/plugin3.jpg)
+
+_if you are drawing notes using a stroke node, make sure to set projection to ZX plane. (remeber the plugin always assumes a top view!)_
+
+### Play it!
+
+Time to hear your amazingly-better-than-Mozart musical piece. Check "Enable Midi Output" in the sequencer node, also change its destination port to `houdini_out`. Definitely set your playback speed to realtime (the little toogle below play button, in the timeline)
+
+Still not playing? That's because CHOP has some aggressive optimizations, it won't compute anything unless you have a motionfx window opened. Tsc TSc. 
+There is a convenience button "MotionFX view", right after the destination port, click it. 
+
+There you go, if you set up everything correctly, you should hear your bass and your piano notes playing together, as different instruments, each on its own synth app instance.
+
+### Going forward
+
+Resist to the temptation of drawing notes while playing... yeah, I know. But this is not a DAW software, it is a houdini hack! But hey, scattering notes is cool heh? so give it a chance.
+
+Another pain point is that even if not playing, just leaving the motionfx window opened while creating notes is heavy! I'm workint on that, but for now close the window, update, open the window, play. (sorry)
+
+Now that you know the basics, check [example](../examples) hip files to see other use cases, workflows, node types and tricks. Hope it is fun! :musical_note::blue_heart:
