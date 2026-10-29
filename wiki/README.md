@@ -36,7 +36,7 @@ Now that you downloaded the utility apps and a synth, here's the basics on how t
 mididash gets `houdini out`, extracts ch1 and reroutes to `md out ch1`  
 mididash gets `houdini out`, extracts ch2 and reroutes to `md out ch2`
 
-we'll create these relationships in the next step.
+we'll create these relationships in the next step. For now just create the ports with the same names as mine.
 
 ### Create routes in Mididash:
 ![](images/mididash.jpg)
