@@ -93,6 +93,6 @@ There you go, if you set up everything correctly, you should hear your bass and 
 
 Resist to the temptation of drawing notes while playing... yeah, I know. But this is not a DAW software, it is a houdini hack! But hey, scattering notes is cool heh? so give it a chance.
 
-Another pain point is that even if not playing, just leaving the motionfx window opened while creating notes is heavy! I'm workint on that, but for now close the window, update, open the window, play. (sorry)
+Another pain point is that even if not playing, just leaving the motionfx window opened while creating notes is heavy! I'm working on that, but for now just close the window, update, open the window, play. (sorry)
 
 Now that you know the basics, check [example](../examples) hip files to see other use cases, workflows, node types and tricks. Hope it is fun! :musical_note::blue_heart:
