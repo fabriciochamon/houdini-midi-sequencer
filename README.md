@@ -14,3 +14,5 @@ A simple sequencer that allows for procedural music experimentations within side
 ...more to come.
 
 ![screenshot](images/screenshot1.jpg)
+
+Check the [wiki](./wiki) page for more info, or [plugin](./plugin) page for install instructions.
