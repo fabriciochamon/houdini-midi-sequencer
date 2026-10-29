@@ -85,6 +85,8 @@ Time to hear your amazingly-better-than-Mozart musical piece. Check "Enable Midi
 Still not playing? That's because CHOP has some aggressive optimizations, it won't compute anything unless you have a motionfx window opened. Tsc TSc. 
 There is a convenience button "MotionFX view", right after the destination port, click it. 
 
+![](images/plugin4.jpg)
+
 There you go, if you set up everything correctly, you should hear your bass and your piano notes playing together, as different instruments, each on its own synth app instance.
 
 ### Going forward
