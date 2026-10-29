@@ -1,0 +1,6 @@
+{
+	"env": [
+		{"MIDI_SEQUENCER": "C:/GITHUB/houdini-midi-sequencer/plugin"},
+		{"HOUDINI_PATH": "$MIDI_SEQUENCER"}
+	]
+}
