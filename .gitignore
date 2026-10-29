@@ -1,5 +1,6 @@
 # otl backups
 plugin/otls/backup
+examples/backup
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
