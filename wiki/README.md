@@ -23,7 +23,7 @@ A synthesizer is an electronic musical instrument, it can receive midi signals a
 
 [Dexed](https://asb2m10.github.io/dexed/)
 
-You'll also need to setup your synth to receive and play the right midi port. Open the synth settings and define your "midi input".
+You'll also need to setup your synth to receive and play the right midi port. We'll see how to do that in the next steps.
 
 ## Wiring it all together
 
