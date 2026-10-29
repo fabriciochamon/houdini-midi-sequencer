@@ -80,7 +80,7 @@ _if you are drawing notes using a stroke node, make sure to set projection to ZX
 
 ### Play it!
 
-Time to hear your amazingly-better-than-Mozart musical piece. Check "Enable Midi Output" in the sequencer node, also change its destination port to `houdini_out`. Definitely set your playback speed to realtime (the little toogle below play button, in the timeline)
+Time to hear your amazingly-better-than-Mozart musical piece. Check "Enable Midi Output" in the sequencer node, also change its destination port to `houdini out`. Definitely set your playback speed to realtime (the little toogle below play button, in the timeline)
 
 Still not playing? That's because CHOP has some aggressive optimizations, it won't compute anything unless you have a motionfx window opened. Tsc TSc. 
 There is a convenience button "MotionFX view", right after the destination port, click it. 
