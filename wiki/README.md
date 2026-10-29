@@ -66,7 +66,7 @@ Start with a `Midi Sequencer` node. It will display an 8 octave piano keyboard o
 
 ![](images/plugin1.jpg)
 
-A sequencer accepts any number of tracks. Let's add two tracks: Bass and Piano, with two `add_midi_track` nodes. Make sure to set Channel# 1 for Bass and Channel# 2 for Piano. (each track also gets a random color on node creation, that you can change)
+A sequencer accepts any number of tracks. Let's add two tracks: Bass and Piano, with two `add_midi_track` nodes. Make sure to set Channel# 1 for Bass and Channel# 2 for Piano. (each track also gets a random color upon node creation, make sure to give them some good contrasty colors!)
 
 ![](images/plugin2.jpg)
 
