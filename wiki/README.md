@@ -74,9 +74,10 @@ A sequencer accepts any number of tracks. Let's add two tracks: Bass and Piano, 
 
 See the color coding on the input ports? Anything magenta is a note (or group of notes), it accepts simple curve primitives. Here lies the power of proceduralism, use any sop to build those curves.
 
-![](images/plugin3.jpg)
+![](images/plugin3.jpg)  
+*if you are drawing notes using a stroke node, make sure to set projection to ZX plane. (remeber the plugin always assumes a top view!)*
 
-_if you are drawing notes using a stroke node, make sure to set projection to ZX plane. (remeber the plugin always assumes a top view!)_
+Transform and edit nodes are also fine, abuse them for a more manual control over each note after they have been placed.
 
 ### Play it!
 
