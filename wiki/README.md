@@ -1,13 +1,13 @@
 ## Before you start:
 
-When creating procedural music, you just want to hear stuff live. To avoid having to write .midi files every time, its advisable that you open MIDI ports on your machine and send live signals to a synthesizer, that keeps listening to houdini notes. 
+When creating procedural music, you just want to hear stuff live. To avoid having to write .midi files every time, its advisable that you open MIDI ports on your machine and send live signals to a synthesizer that keeps listening to houdini notes. 
 
 Because midi is an old protocol it requires some setup to get you started. Below are some tools and information that might help.
 
 
 ### LoopMIDI
 
-[LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) is an app that creates virtual midi cables on your machine. If you create a port there, it will show up as an available destination port in sequencer hda.
+[LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) is an app that creates virtual midi cables on your machine. When you create a port, it will show up as a destination in houdini.
 
 ### Mididash
 
