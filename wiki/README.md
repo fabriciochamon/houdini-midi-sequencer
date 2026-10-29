@@ -15,7 +15,7 @@ Because midi is an old protocol it requires some setup to get you started. Below
 
 ### LoopMIDI
 
-[LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) is an app that creates virtual midi cables on your machine. When you create a port in LoopMIDI it will show up in houdini.
+[LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html) is an app that creates virtual midi cables on your machine. When you create a port in LoopMIDI it will show up in the houdini sequencer hda.
 
 ### Mididash
 
