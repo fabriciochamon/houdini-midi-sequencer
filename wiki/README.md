@@ -103,7 +103,7 @@ Now that you know the basics, check [example](../examples) hip files to see othe
 
 - **midi sequencer**: The heart of the system. Responsible for gathering a collection of tracks and sending out midi signals.
 - **add midi track**: creates a named track at specified channel number, with a random color.
-- **add notes**: a simple alternative for quickly adding notes (as opposed to drawing curve prims), where you just type in note names. Useful for testing chords. (syntax: note names, accidents, and "+" or "-" signs for octave shifts, followed by 1+ spaces in between each note. Example: `D# F   Bb-  C G A#+`)
+- **add notes**: a simple alternative for quickly adding notes (as opposed to drawing curve prims), where you just type in note names. (syntax: note names, accidents, and "+" or "-" signs for octave shifts, followed by 1+ spaces in between each note. Example: `D# F   Bb-  C G A#+`)
 - **note edit**: a unified toolbox for editing notes. Add snapping, scale or loop groups of notes, add swing, transpose by keys and octaves.
 - **note dynamics** (WIP): define per note midi velocity or pitch, by drawing curves over notes.
 - **note chord**: adds chords to input notes. Choose between common scale presets (or define your own), add/remove degrees to the chord (like 7th, 9th, 13th) or arpeggiate notes.
