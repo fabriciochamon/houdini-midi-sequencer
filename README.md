@@ -2,7 +2,7 @@
 
 A simple sequencer that allows for procedural music experimentations within sidefx houdini.
 
-Check the [wiki](./wiki) page for more info, or [plugin](./plugin) page for install instructions.
+Check the [wiki](./wiki) page for more info, [plugin](./plugin) page for install instructions, or some [example hip files](./examples).
 
 ## Features
 - Arbitrary number of tracks (midi channels)
