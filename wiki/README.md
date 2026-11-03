@@ -5,6 +5,7 @@ Index:
 [3 - Houdini workflow](#in-houdini)<br>
 [4 - Play it!](#play-it)<br>
 [5 - Going forward](#going-forward)<br>
+[6 - Node list](#node-list)<br>
 
 ## Before you start:
 
@@ -97,3 +98,14 @@ Resist to the temptation of drawing notes while playing... yeah, I know. But thi
 Another pain point is that even if not playing, just leaving the motionfx window opened while creating notes is heavy! I'm working on that, but for now just close the window, update, open the window, play. (sorry)
 
 Now that you know the basics, check [example](../examples) hip files to see other use cases, workflows, node types and tricks. Hope it is fun! :musical_note::blue_heart:
+
+### Node list:
+
+- **midi sequencer**: The heart of the system. Responsible for gathering a collection of tracks and sending out midi signals.
+- **add midi track**: creates a named track at specified channel number, with a random color.
+- **add notes**: a simple alternative for adding simple notes, where you just type in note names like: C#, A, Db. Useful for testing chords. (Not super flexible as it draws notes at fixed intervals)
+- **note edit**: a unified toolbox for editing notes. Add snapping, scale or loop groups of notes, add swing, transpose by keys and octaves.
+- **note dynamics** (WIP): define per note midi velocity or pitch, by drawing curves over notes.
+- **note chord**: adds chords to input notes. Choose between common scale presets (or define your own), add/remove degrees to the chord (like 7th, 9th, 13th) or arpeggiate notes.
+- **midi file to tracks**: converts a midi file into sequencer tracks.
+- **track to notes**: converts a track (packed geo) back into notes (simple curve geos) for further editings.
