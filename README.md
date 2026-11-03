@@ -17,3 +17,4 @@ Check the [wiki](./wiki) page for more info, or [plugin](./plugin) page for inst
 
 ![screenshot](images/screenshot1.jpg)
 
+![screenshot](images/screenshot2.jpg)
