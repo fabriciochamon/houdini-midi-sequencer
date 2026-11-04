@@ -111,3 +111,4 @@ Now that you know the basics, check [example](../examples) hip files to see othe
 - **midi file to tracks**: converts a midi file into sequencer tracks.
 - **track to notes**: converts a track (packed geo) back into notes (simple curve geos) for further editings.
 - **rhythm**: record a pulse rythm by tapping a keyboard key.
+- **deintersect notes**: remove same-key note intersections. Two intersecting notes will prevent a correct midi signal to be sent, this hda corrects it and optionally adds a gap between the deintersected notes.
