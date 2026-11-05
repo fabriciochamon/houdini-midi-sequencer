@@ -112,3 +112,4 @@ Now that you know the basics, check [example](../examples) hip files to see othe
 - **track to notes**: converts a track (packed geo) back into notes (simple curve geos) for further editings.
 - **rhythm**: record a pulse rythm by tapping a keyboard key.
 - **deintersect notes**: remove same-key note intersections. Two intersecting notes will prevent a correct midi signal to be sent, this hda corrects it and optionally adds a gap between the deintersected notes.
+- **chord progression**: creates a chord progression for the input notes. It can use a prim attribute to drive chord changes, or if left blank it will change chords for every input note.
