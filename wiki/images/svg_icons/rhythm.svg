@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- BAQUETAS NO PLANO DE FUNDO (Limpas, paralelas e sem cruzar na frente) -->
+  <g stroke="#333333" stroke-width="4.5" stroke-linecap="round" fill="none">
+    <!-- Baqueta Esquerda (Inclinada atrás do tambor) -->
+    <line x1="14" y1="58" x2="38" y2="16"/>
+    <circle cx="39.5" cy="13.5" r="3.5" fill="#ff6d00" stroke="#333333" stroke-width="2.5"/>
+    
+    <!-- Baqueta Direita (Inclinada atrás do tambor) -->
+    <line x1="86" y1="58" x2="62" y2="16"/>
+    <circle cx="60.5" cy="13.5" r="3.5" fill="#ff6d00" stroke="#333333" stroke-width="2.5"/>
+  </g>
+
+  <!-- TAMBOR CAIXA ULTRA-ARREDONDADO (Em primeiro plano) -->
+  <!-- Casco inferior do tambor (Bordas totalmente arredondadas / formato de cápsula fluida) -->
+  <path d="M 24 45 
+           L 24 55 
+           A 26 22 0 0 0 76 55 
+           L 76 45 
+           Z" 
+        fill="#008be3" stroke="#333333" stroke-width="5" stroke-linejoin="round"/>
+  
+  <!-- Pele superior do tambor (Elipse ovalada bem suave) -->
+  <ellipse cx="50" cy="45" rx="26" ry="11" fill="#ffffff" stroke="#333333" stroke-width="5"/>
+  
+  <!-- Detalhes estéticos de afinação (Acompanhando a curvatura arredondada do casco) -->
+  <line x1="38" y1="53" x2="38" y2="63" stroke="#333333" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="50" y1="56" x2="50" y2="67" stroke="#333333" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="62" y1="53" x2="62" y2="63" stroke="#333333" stroke-width="4.5" stroke-linecap="round"/>
+</svg>

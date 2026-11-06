@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Grupo da Nota Musical com contorno em cinza escuro (#333333) -->
+  <g stroke="#333333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Bandeira/Haste superior em azul/ciano conectando as notas -->
+    <path d="M14 14 L 30 10 V 16 L 14 20 Z" fill="#4a90e2"/>
+    <!-- Haste esquerda e cabeça da nota preenchida -->
+    <path d="M14 20 V 34" fill="none"/>
+    <ellipse cx="10" cy="34" rx="4" ry="3" transform="rotate(-20 10 34)" fill="#000000"/>
+    <!-- Haste direita e cabeça da nota preenchida -->
+    <path d="M30 16 V 30" fill="none"/>
+    <ellipse cx="26" cy="30" rx="4" ry="3" transform="rotate(-20 26 30)" fill="#000000"/>
+  </g>
+  <!-- Indicador de adição (+) em magenta brilhante com texto interno branco -->
+  <circle cx="36" cy="34" r="7" fill="#e91e63"/>
+  <path d="M36 31 v6 M33 34 h6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+</svg>

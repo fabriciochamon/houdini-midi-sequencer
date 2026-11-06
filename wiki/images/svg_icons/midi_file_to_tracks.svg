@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <path d="M6 6 h16 l8 8 v24 h-24 Z" fill="#1e1e24" stroke="#fff" stroke-width="2"/>
+  <text x="9" y="28" fill="#4a90e2" font-family="sans-serif" font-size="8" font-weight="bold">MIDI</text>
+  <path d="M26 20 h16 M26 26 h16 M26 32 h16" stroke="#e91e63" stroke-width="2" stroke-linecap="round"/>
+</svg>
