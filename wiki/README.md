@@ -99,6 +99,8 @@ Another pain point is that even if not playing, just leaving the motionfx window
 
 Now that you know the basics, check [example](../examples) hip files to see other use cases, workflows, node types and tricks. Hope it is fun! :musical_note::blue_heart:
 
+---
+
 ### Node list:
 
 - <img src="./images/svg_icons/midi_sequencer.svg" width="20" style="vertical-align:middle"> **midi sequencer**: The heart of the system. Responsible for gathering a collection of tracks and sending out midi signals.
