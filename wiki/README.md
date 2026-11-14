@@ -109,7 +109,7 @@ Now that you know the basics, check [example](../examples) hip files to see othe
 - <img src="./images/svg_icons/set_notes.svg" width="20" style="vertical-align:middle"> **set notes**: redefine notes using written notation (or reference notes, if using the second input). Useful for repositioning notes without having to deal with transform values.
 - <img src="./images/svg_icons/note_edit.svg" width="20" style="vertical-align:middle"> **note edit**: a unified toolbox for editing notes. Add snapping, scale or loop groups of notes, add swing, transpose by keys and octaves.
 - <img src="./images/svg_icons/note_dynamics.svg" width="20" style="vertical-align:middle"> **note dynamics** (WIP): define per note midi velocity or pitch, by drawing curves over notes.
-- <img src="./images/svg_icons/note_chord.svg" width="20" style="vertical-align:middle"> **note chord**: adds chords to input notes. Choose between common scale presets (or define your own scale), add/remove degrees to the chord (like 7th, 9th, 13th) or arpeggiate notes.
+- <img src="./images/svg_icons/note_chord.svg" width="20" style="vertical-align:middle"> **chord**: adds chords to input notes. Choose between common scale presets (or define your own scale), add/remove degrees to the chord (like 7th, 9th, 13th) or arpeggiate notes.
 - <img src="./images/svg_icons/midi_file_to_tracks.svg" width="20" style="vertical-align:middle"> **midi file to tracks**: converts a midi file into sequencer tracks.
 - **track to notes**: converts a track (packed geo) back into notes (simple curve geos) for further editings.
 - <img src="./images/svg_icons/rhythm.svg" width="20" style="vertical-align:middle"> **rhythm**: record a pulse rythm by tapping a keyboard key.
@@ -117,3 +117,4 @@ Now that you know the basics, check [example](../examples) hip files to see othe
 - <img src="./images/svg_icons/chord_progression.svg" width="20" style="vertical-align:middle"> **chord progression**: creates a chord progression for the input notes. It can use a prim attribute to drive chord changes, or if left blank it will change chords for every input note.
 - <img src="./images/svg_icons/append_notes.svg" width="20" style="vertical-align:middle"> **append notes**: utility hda to sequence groups of notes one after another.
 - <img src="./images/svg_icons/note_repeat.svg" width="20" style="vertical-align:middle"> **note repeat**: utility hda to create repetitions of each input note, but properly appending them. Useful if you want to create notes repeating for many bars.
+- <img src="./images/svg_icons/diatonic_chord.svg" width="20" style="vertical-align:middle"> **diatonic chords**: create diatonic chords from a set of input notes (assuming they are degrees from a scale).

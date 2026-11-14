@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Diatonic Scale Reference Ruler (Left) -->
+  <rect x="4" y="4" width="2.5" height="24" rx="1" fill="#333333" />
+  
+  <!-- Scale Degree Ticks along the Ruler -->
+  <rect x="6.5" y="7.25" width="2.5" height="2" rx="0.5" fill="#333333" />
+  <rect x="6.5" y="15" width="2.5" height="2" rx="0.5" fill="#333333" />
+  <rect x="6.5" y="22.75" width="2.5" height="2" rx="0.5" fill="#333333" />
+
+  <!-- Primary Diatonic Triad Stack (5th, 3rd, Root) -->
+  <!-- 5th (Magenta) -->
+  <rect x="11" y="6" width="11" height="4.5" rx="1" fill="#E61957" />
+  <!-- 3rd (Blue) -->
+  <rect x="11" y="13.75" width="11" height="4.5" rx="1" fill="#3D85D8" />
+  <!-- Root (Amber) -->
+  <rect x="11" y="21.5" width="11" height="4.5" rx="1" fill="#FFB000" />
+
+  <!-- Diatonic Scale Step / Degree Shift Indicator (Right) -->
+  <rect x="24.5" y="10" width="3.5" height="4.5" rx="1" fill="#3D85D8" opacity="0.85" />
+  <rect x="24.5" y="17.75" width="3.5" height="4.5" rx="1" fill="#FFB000" opacity="0.85" />
+</svg>
