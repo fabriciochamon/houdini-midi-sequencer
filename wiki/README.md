@@ -82,7 +82,7 @@ Transform and edit nodes are also fine, abuse them for a more manual control ove
 
 ### Play it!
 
-Time to hear your amazingly-better-than-Mozart musical piece. Check "Enable Midi Output" in the sequencer node, also change its destination port to `houdini out`. Definitely set your playback speed to realtime (the little toogle below play button, in the timeline)
+Time to hear your amazingly-better-than-Mozart musical piece. Set the sequencer destination port to `houdini out`. Definitely also set your playback speed to realtime (the little toogle below play button, in the timeline)
 
 Still not playing? That's because CHOP has some aggressive optimizations, it won't compute anything unless you have a motionfx window opened. Tsc Tsc. 
 There is a convenience button "MotionFX view", right after the destination port, click it. 
