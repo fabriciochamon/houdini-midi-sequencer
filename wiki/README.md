@@ -111,7 +111,7 @@ Now that you know the basics, check [example](../examples) hip files to see othe
 - <img src="./images/svg_icons/note_dynamics.svg" width="20" style="vertical-align:middle"> **note dynamics** (WIP): define per note midi velocity or pitch, by drawing curves over notes.
 - <img src="./images/svg_icons/note_chord.svg" width="20" style="vertical-align:middle"> **chord**: adds chords to input notes. Choose between common scale presets (or define your own scale), add/remove degrees to the chord (like 7th, 9th, 13th) or arpeggiate notes.
 - <img src="./images/svg_icons/midi_file_to_tracks.svg" width="20" style="vertical-align:middle"> **midi file to tracks**: converts a midi file into sequencer tracks.
-- **track to notes**: converts a track (packed geo) back into notes (simple curve geos) for further editings.
+- <img src="./images/svg_icons/track_to_notes.svg" width="20" style="vertical-align:middle"> **track to notes**: converts a track (packed geo) back into notes (simple curve geos) for further editings.
 - <img src="./images/svg_icons/rhythm.svg" width="20" style="vertical-align:middle"> **rhythm**: record a pulse rythm by tapping a keyboard key.
 - <img src="./images/svg_icons/deintersect_notes.svg" width="20" style="vertical-align:middle"> **deintersect notes**: remove same-key note intersections. Two intersecting notes will prevent a correct midi signal to be sent, this hda corrects it and optionally adds a gap between the deintersected notes.
 - <img src="./images/svg_icons/chord_progression.svg" width="20" style="vertical-align:middle"> **chord progression**: creates a chord progression for the input notes. It can use a prim attribute to drive chord changes, or if left blank it will change chords for every input note.
