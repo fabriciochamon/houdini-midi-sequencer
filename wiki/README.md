@@ -63,7 +63,7 @@ Open an instance of SurgeXT, click options > Audio/MIDI settings. Adjust the mid
 
 This plugin is still in development, but here are some basic concepts. At first it might seem weird because we will start building nodes bottom up, but it will make more sense later on.
 
-Start with a `Midi Sequencer` node. It will display an 8 octave piano keyboard on your screen. The plugin is meant to be used in the top view, as if you were looking downwards into it, so switch to top view by pressing "space bar + 2". (switching background color to dark grey or black also helps!)
+Start with a `Midi Sequencer` node. It will display an 8 octave piano keyboard on your screen. The plugin is meant to be used in the top view, as if you were looking downwards into it. Click the utility button in `Display Options > Init viewport`, it will switch to a top view and set the background color to dark grey for better note readability.
 
 ![](images/plugin1.jpg)
 
